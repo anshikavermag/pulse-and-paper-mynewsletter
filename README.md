@@ -2,6 +2,11 @@
 
 This project is a web application that allows users to sign up for a newsletter using Mailchimp. It uses Node.js with the Express framework to handle server-side operations and interacts with the Mailchimp API to manage email subscriptions.
 
+## What does it do?
+- **Integrates Mailchimp API** with an Express.js application to handle user subscriptions.
+- **Implements secure API key management** using environment variables.
+- **Develops a signup form** with feedback mechanisms for successful and failed subscriptions.
+
 ## 🛠 Technologies Used
 
 - **Backend**: Node.js with Express
@@ -73,9 +78,7 @@ The project uses a `.env` file to manage sensitive data. The required variables 
 - `LIST_ID`: Your Mailchimp List ID.
 - `DATACENTER`: The data center specific to your Mailchimp account (e.g., us14).
 
-## 🚀 Deployment
 
-Instructions for deploying the application (e.g., using Heroku, Netlify, etc.) can be added here.
 
 ## 🛡 Security Considerations
 
